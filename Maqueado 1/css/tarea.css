@@ -1,0 +1,101 @@
+*
+{
+margin: 0;
+}
+
+body
+{
+    background-color: aqua;
+}
+
+.header
+{
+    background-color: rgb(8, 109, 50);
+    width: 1000px;
+    height: 100px;
+    display: flex;
+}
+
+.boxh
+{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    padding: 25px;
+}
+
+.nav
+{
+    background-color: rgb(0, 132, 255);
+    width: 1000px;
+    height: 300px;
+    display: flex;
+}
+
+.banner
+{
+    background-color: aliceblue;
+    width: 800px;
+    height: 225px;
+    margin: 10px;
+    padding: 25px;
+}
+
+.banner div {
+    width: 200%;
+}
+
+.log
+{
+    background-color: aliceblue;
+    width: 200px;
+    height: 35px;
+    margin: 10px;
+    padding: 25px;
+}
+
+.main
+{
+    background-color: rgb(232, 255, 27);
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside
+{
+    background-color: rgb(214, 24, 50);
+    width: 200px;
+    height: 500px;
+}
+
+.asi
+{
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: 470px;
+    margin: 10px;
+    padding: 5px;
+    
+}
+
+.article
+{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 475px;
+}
+x
+.aside.derecha {
+    width: 300px;
+}
+
+.footer
+{
+    background-color: rgb(146, 125, 4);
+    width: 1000px;
+    height: 50px;
+}
