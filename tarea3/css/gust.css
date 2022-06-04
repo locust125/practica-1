@@ -1,0 +1,79 @@
+
+header
+{
+    display: flex;
+    height: 70px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo img
+{
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+body
+{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgb(66, 82, 255);
+}
+
+main
+{
+    list-style: none;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+main li a
+{
+    text-decoration: none;
+    color: aqua;
+    padding: 20px;
+    display: block;
+}
+
+main li
+{
+    display: inline-block;
+    text-align: center;
+}
+
+main li a:hover
+{
+    background: #ffff;
+}
+
+
+  <!--cajas-->
+  
+.equipo article
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.equipo article h4
+{
+    width: 100%;
+}
+
+.equipo article p
+{
+    flex: 1;
+}
